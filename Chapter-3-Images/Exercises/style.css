@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+figure {
+    margin: 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.filter1 {
+    filter: sepia(50%);
+}
+
+.filter2 {
+    filter: brightness(1.1) contrast(1.1);
+}
+
+.filter3 {
+    filter: grayscale(30%) hue-rotate(15deg);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}

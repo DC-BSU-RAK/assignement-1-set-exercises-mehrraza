@@ -1,0 +1,88 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.game-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Color display boxes */
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    border: 2px solid #ddd;
+}
+
+/* Options grid layout */
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+/* Game info styling */
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Feedback messages */
+#feedback {
+    padding: 12px;
+    border-radius: 6px;
+    margin: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.feedback-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.feedback-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.correct { background: #d4edda; color: #155724; }
+.incorrect { background: #f8d7da; color: #721c24; }
+
+/* Replay button */
+#replay-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+#replay-btn:hover {
+    background: #0056b3;
+}
+
+.hidden { display: none; }

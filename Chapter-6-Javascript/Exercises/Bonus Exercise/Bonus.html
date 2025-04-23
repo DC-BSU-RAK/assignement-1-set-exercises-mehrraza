@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Guesser</title>
+    <link rel="stylesheet" href="bonus.css">
+</head>
+<body>
+    <!-- Game container -->
+    <div class="game-container">
+        <h1>RGB Color Guesser</h1>
+        
+        <!-- Game info display -->
+        <div class="game-info">
+            <p>Lives: <span id="lives">3</span></p>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+
+        <!-- Target color display -->
+        <div class="color-display">
+            <p>Guess this color:</p>
+            <div id="target-color" class="color-box"></div>
+        </div>
+
+        <!-- Color options grid -->
+        <div id="color-options" class="options-grid"></div>
+
+        <!-- Game feedback -->
+        <p id="feedback" class="feedback-hidden"></p>
+
+        <!-- Replay button (hidden initially) -->
+        <button id="replay-btn" class="hidden">Play Again</button>
+    </div>
+
+    <script src="bonus.java"></script>
+</body>
+</html>

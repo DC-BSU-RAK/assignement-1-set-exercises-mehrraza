@@ -1,0 +1,110 @@
+/* Main page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff9f2;
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #c14543;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f0c14b;
+    padding-bottom: 10px;
+    font-family: 'Georgia', serif;
+  }
+  
+  h2 {
+    color: #8b4513;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    border-left: 4px solid #f0c14b;
+    padding-left: 10px;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    color: #555;
+  }
+  
+  /* List styling */
+  ul, ol {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+  }
+  
+  /* Ingredients list specific styling */
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: "•";
+    color: #c14543;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  /* Method list specific styling */
+  ol {
+    counter-reset: step-counter;
+  }
+  
+  ol li {
+    counter-increment: step-counter;
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  ol li:before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    background-color: #f0c14b;
+    color: white;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22px;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    body {
+      padding: 15px;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+    
+    ul, ol {
+      padding: 15px 25px;
+    }
+  }

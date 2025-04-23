@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #1b093f;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  header h1 {
+    font-size: 40px;
+    margin: 0;
+    text-decoration: underline;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  .welcome {
+    width: 85%;
+   
+  }
+  
+  .welcome h2 {
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .welcome p {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 13px;
+    
+  }
+  
+  .welcome img {
+    width: 80%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  .line-up {
+    width: 66%;
+    background-color: #1e3b78;
+    color: white;
+    padding: 20px;
+  }
+
+  .line-up{
+    text-decoration: underline;
+  }
+  
+ul{
+  font-size: larger;
+  margin: 0.2rem;
+}
+  .line-up-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .line-up-images img {
+    width: 20rem;   
+    height: 7rem; 
+  }
+  #foot {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #8000ff;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    width: 75rem;
+   ;
+  }
+  
+  .container {
+    display: flex;
+    align-items: flex-start; 
+    gap: 10rem; 
+    
+  }
+  
+  .main-img {
+    width: 500px; 
+  }
+  
+  .blue-box {
+    position: absolute;
+    top: 18.7rem;
+    right: 0.5rem;
+    background-color: #1f3d7a;
+    color: white;
+    padding: 22px;
+    width: 360px;
+    height: 29rem;
+   }
+  
+
+  .images {
+    margin: 1rem;
+   height: 10rem;
+   width: 10rem;
+   background-color: #1b093f;
+  }
+
+  #img2{
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-image: url('image1.png');
+    position: absolute;
+    top: 19.8rem;
+    right: 1rem;
+  }
+
+  #img3{
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-image: url('image2.png');
+    position: absolute;
+    top: 19.8rem;
+    right: 12rem;
+  }
+  
+  .images img {
+    width: 6rem;
+    height: auto;
+  }
+
+#li123{
+  font-size: 400px;
+}
+
